@@ -1,10 +1,10 @@
-# 🔥 Arduino Gas Leak Detector System
+#  Arduino Gas Leak Detector System
 
 This project demonstrates a gas leak detection system using an MQ gas sensor and Arduino Uno. The system continuously monitors the presence of combustible gases and triggers alerts via a buzzer and LED if dangerous levels are detected.
 
 ---
 
-##  🛠️ Components Used
+##  Components Used
 
 - Arduino Uno
 - MQ-2 Gas Sensor
@@ -17,7 +17,7 @@ This project demonstrates a gas leak detection system using an MQ gas sensor and
 
 ---
 
-##  ⚙️ How It Works
+##  How It Works
 
 The MQ-2 sensor measures the concentration of gases like LPG, propane, and methane. The sensor provides an analog signal that the Arduino reads using `analogRead()`.
 
@@ -32,7 +32,7 @@ The MQ-2 sensor measures the concentration of gases like LPG, propane, and metha
 
 ---
 
-##  📷 Circuit Diagram
+##  Circuit Diagram
 
 ![Circuit Diagram](gas_detector_diagram.png)
 
@@ -40,7 +40,7 @@ The MQ-2 sensor measures the concentration of gases like LPG, propane, and metha
 
 ---
 
-##  💻 Full Arduino Code
+##  Full Arduino Code
 
 ```cpp
 int gasSensor = A0;     // MQ-2 sensor connected to analog pin A0
